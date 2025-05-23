@@ -1,0 +1,12 @@
+An SVG icon for Nautobot is needed here.
+The icon should be relevant to Nautobot, for example, its logo or a stylized representation of network devices.
+The icon file should be named `nautobot.svg` and placed in this directory.
+The `icon` property in `Nautobot.node.ts` should be `file:nautobot.svg`.
+
+For example, a simple SVG could be:
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="60" height="60" rx="8" fill="#007bff"/>
+<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="12" fill="white">Nautobot</text>
+</svg>
+
+Please replace this placeholder file with the actual `nautobot.svg`.
